@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+
+ --color-sidebar-300:oklch(70.7% 0.165 254.624);
+  --color-indigo-300:oklch(90.5% 0.093 164.15);
+   --color-purple-300: #e0e7fe ;
+   --color-cyan-300:oklch(94.1% 0.03 12.58) ;
+  --color-purple-500: #3e38a7;
+  --color-purple-600: #5046e4;
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-avocado-400: oklch(0.92 0.19 114.08);
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --color-avocado-600: oklch(0.53 0.12 118.34);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  /* ... */
+}
+
+.sidebar svg {
+  width: 100%;
+  max-width: 25px; /* Maximum size for the sidebar */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo svg {
+  width: 100%;
+  max-width: 35px; /* Maximum size for the sidebar */
+  height: auto; 
+  /* Maintain aspect ratio */
+}
+
