@@ -112,7 +112,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen w-screen bg-[#e6dae6] flex flex-col justify-center items-center p-4">
+    <div className="min-h-screen w-full bg-[#e6dae6] flex flex-col justify-center items-center p-4">
       <div className="text-center mb-6 sm:mb-8">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">Create an Account</h1>
         <p className="text-lg sm:text-xl text-gray-600 mt-1">
@@ -122,7 +122,7 @@ const Signup = () => {
 
       <form
         onSubmit={handleSignupSubmit}
-        className="w-full max-w-md rounded-lg border border-gray-300 bg-[#eceeef] p-6 sm:p-8 shadow-xl"
+        className="w-full max-w-xs md:max-w-md rounded-lg border border-gray-300 bg-[#eceeef] p-6 sm:p-8 shadow-xl"
       >
         <div className="mb-5">
          

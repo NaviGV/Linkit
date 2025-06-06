@@ -80,7 +80,7 @@ const Signin = () => {
 
   return (
     <>
-      <div className="min-h-screen w-screen flex flex-col justify-center items-center bg-[#e6dae6] p-4">
+      <div className="min-h-screen w-full md:w-screen flex flex-col justify-center items-center bg-[#e6dae6] p-4">
         <div className="text-center mb-6 sm:mb-8"> {/* Consistent title section */}
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">
             Welcome back to Brainly
@@ -92,7 +92,7 @@ const Signin = () => {
 
         <form
           onSubmit={handleSigninSubmit}
-          className="w-full max-w-md rounded-lg border border-gray-300 bg-[#eceeef] p-6 sm:p-8 shadow-xl" >
+          className="w-full max-w-xs md:max-w-md rounded-lg border border-gray-300 bg-[#eceeef] p-6 sm:p-8 shadow-xl" >
 
           <div className="mb-5">
             <Input

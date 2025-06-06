@@ -13,7 +13,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           ref={ref}
           placeholder={placeholder}
           type="text"
-          className="px-25 py-2 border rounded my-2"
+          className="px-11 md:px-25 py-2 border rounded my-2 sm:max-w-xs md:max-w-md"
           {...rest} 
         />
       </div>
